@@ -30,10 +30,10 @@ const Join = () => {
         <hr />
         <div>
           <span className="stroke-text">READY TO</span>
-          <span> LEVEL UP</span>
+          <span className="normal-text"> LEVEL UP</span>
         </div>
         <div>
-          <span>YOUR HEALTH</span>
+          <span className="normal-text">YOUR HEALTH</span>
           <span className="stroke-text"> WITH US?</span>
         </div>
       </div>

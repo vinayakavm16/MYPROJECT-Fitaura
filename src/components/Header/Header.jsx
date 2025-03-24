@@ -49,28 +49,7 @@ const Header = () => {
             </Link>
           </li>
 
-          {/* <li>
-            <Link
-              to="reasons"
-              span={true}
-              smooth={true}
-              onClick={() => setMenuOpen(false)}
-            >
-              Why us
-            </Link>
-          </li> */}
-
-          {/* <li>
-            <Link
-              to="plans"
-              span={true}
-              smooth={true}
-              onClick={() => setMenuOpen(false)}
-            >
-              Plans
-            </Link>
-          </li> */}
-
+          
           <li>
             <Link
               to="footer"

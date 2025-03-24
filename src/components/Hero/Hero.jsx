@@ -9,9 +9,14 @@ import Calories from "../../assets/calories.png";
 
 import { motion } from "framer-motion";
 import NumberCounter from "number-counter";
+
+import { useNavigate } from "react-router-dom";
+
 const Hero = () => {
   const transition = { type: "spring", duration: 3 };
   const mobile = window.innerWidth <= 768 ? true : false;
+  const navigate = useNavigate();
+
 
   return (
     <div className="hero" id="home">
@@ -78,7 +83,9 @@ const Hero = () => {
       </div>
 
       <div className="right-h">
-        <button className="btn">Join Now</button>
+      <button className="btn" onClick={() => navigate("/signin")}>
+      Join Now
+    </button>
 
         <motion.div
           className="heart-rate"

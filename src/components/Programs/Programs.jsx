@@ -1,14 +1,14 @@
 import React from "react";
 import "./Programs.css";
 import { programsData } from "../../data/programsData";
-import RightArrow from "../../assets/rightArrow.png";
+// import RightArrow from "../../assets/rightArrow.png";
 const Programs = () => {
   return (
     <div className="Programs" id="programs">
       {/* header */}
       <div className="programs-header">
         <span className="stroke-text">Explore our</span>
-        <span>Features</span>
+        <span className="normal-text">Features</span>
         <span className="stroke-text">to guide you</span>
       </div>
 
